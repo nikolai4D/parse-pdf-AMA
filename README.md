@@ -6,6 +6,7 @@ This Python script is designed to extract text from PDF files in a way that reta
 
 The extraction process groups lines in the document together based on their proximity and attempts to detect and retain headers and associated content. The detection of headers is done by looking for patterns associated with the AMA code in the document. The text and the metadata are extracted and structured in a JSON and CSV format.
 
+##### Target Users
 This project could be especially useful for professionals in the Swedish construction industry, academics, researchers or anyone interested in automated data extraction from PDF files.
 
 ### How it works
