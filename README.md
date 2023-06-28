@@ -46,9 +46,6 @@ This project could be especially useful for professionals in the Swedish constru
 4. The script will output a JSON file and CSV file named "output.json" and "output.csv" with the extracted content.
 
 
-Remember to update the paths in the CSV file according to the location of your PDF files. The PDF files can be in any location as long as the path in the CSV file is correctly specified.
-
-
 #### CSV File Configuration
 
 In order for the script to work, you need to provide a CSV file named file_to_parse.csv. This file should be in the root directory of the project.
@@ -73,7 +70,7 @@ file_path;skip_pages;threshold_top;threshold_bottom;paragraph_fontsize;line_heig
 
 You can refer to `file_to_parse.example.csv` in the project root for an example of how to structure this CSV file.
 
-Again, replace __<file_path_from_root>__ with the actual relative paths to your PDF files.
+Again, replace __<file_path_from_root>__ with the actual relative paths to your PDF files. The PDF files can be in any location as long as the path in the CSV file is correctly specified.
 
 ### Note
 
