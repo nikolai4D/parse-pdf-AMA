@@ -1,0 +1,7 @@
+pdfplumber
+
+re
+json
+csv
+os
+uuid
